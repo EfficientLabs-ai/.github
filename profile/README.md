@@ -18,8 +18,7 @@ bring your own cloud key (BYOK) — you choose, and you can switch. Configure it
 Secure-by-default: zero ambient authority, every capability off until you grant it.
 
 ```sh
-npm i -g @efficientlabs/stratos      # or, no npm:
-curl -fsSL https://raw.githubusercontent.com/EfficientLabs-ai/StratosAgent/main/install.sh | sh
+npm i -g @efficientlabs/stratos      # or, without installing: npx @efficientlabs/stratos
 stratos init      # name it + pick a model (local-only setup)
 stratos doctor    # read-only preflight
 stratos start     # runs on 127.0.0.1
